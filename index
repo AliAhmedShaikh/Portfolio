@@ -1,0 +1,576 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alex Smith | Data Engineer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="#" class="logo">AS.</a>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <p class="eyebrow">
+                    DATA ENGINEER • ANALYTICS • CLOUD
+                </p>
+
+                <h1>
+                    Building scalable
+                    <span>data solutions.</span>
+                </h1>
+
+                <p class="hero-description">
+                    I'm Alex Smith, a Data Engineer specializing in
+                    cloud data platforms, analytics, ETL pipelines,
+                    and modern data architecture.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="button primary">
+                        View Projects
+                    </a>
+
+                    <a href="assets/Alex-Smith-CV.pdf"
+                       class="button secondary"
+                       target="_blank">
+                        Download CV
+                    </a>
+
+                </div>
+
+                <div class="social-links">
+
+                    <a href="https://github.com/" target="_blank">
+                        GitHub
+                    </a>
+
+                    <a href="https://linkedin.com/" target="_blank">
+                        LinkedIn
+                    </a>
+
+                    <a href="mailto:alex@example.com">
+                        Email
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img src="assets/profile.jpg"
+                     alt="Alex Smith">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+        <div class="container">
+
+            <p class="section-label">01 — ABOUT</p>
+
+            <h2>About me</h2>
+
+            <div class="about-grid">
+
+                <div>
+                    <p>
+                        I am a Data Engineer with experience designing
+                        and building scalable data platforms and analytics
+                        solutions.
+                    </p>
+
+                    <p>
+                        My work focuses on transforming raw data into
+                        reliable, usable information through modern
+                        cloud technologies and data engineering practices.
+                    </p>
+                </div>
+
+                <div class="about-details">
+
+                    <div>
+                        <strong>Location</strong>
+                        <span>Berlin, Germany</span>
+                    </div>
+
+                    <div>
+                        <strong>Experience</strong>
+                        <span>5+ Years</span>
+                    </div>
+
+                    <div>
+                        <strong>Focus</strong>
+                        <span>Data Engineering</span>
+                    </div>
+
+                    <div>
+                        <strong>Education</strong>
+                        <span>MSc Data Analytics & AI</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section section-dark">
+
+        <div class="container">
+
+            <p class="section-label">02 — SKILLS</p>
+
+            <h2>Technologies I work with</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <h3>Programming</h3>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>PySpark</span>
+                        <span>Java</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Cloud</h3>
+
+                    <div class="tags">
+                        <span>Azure</span>
+                        <span>GCP</span>
+                        <span>AWS</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Data Engineering</h3>
+
+                    <div class="tags">
+                        <span>Databricks</span>
+                        <span>Apache Spark</span>
+                        <span>Airflow</span>
+                        <span>Kafka</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Analytics</h3>
+
+                    <div class="tags">
+                        <span>Power BI</span>
+                        <span>Looker</span>
+                        <span>BigQuery</span>
+                        <span>Data Modeling</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section id="experience" class="section">
+
+        <div class="container">
+
+            <p class="section-label">03 — EXPERIENCE</p>
+
+            <h2>My experience</h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <div class="timeline-date">
+                        2024 — Present
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>Senior Data Engineer</h3>
+
+                        <p class="company">
+                            Company Name
+                        </p>
+
+                        <ul>
+                            <li>
+                                Designed scalable cloud data pipelines
+                                using Python, Spark and Airflow.
+                            </li>
+
+                            <li>
+                                Built data platforms using modern
+                                lakehouse architecture.
+                            </li>
+
+                            <li>
+                                Optimized Spark workloads and reduced
+                                processing time significantly.
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-date">
+                        2021 — 2024
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>Data Engineer</h3>
+
+                        <p class="company">
+                            Previous Company
+                        </p>
+
+                        <ul>
+                            <li>
+                                Developed ETL and ELT pipelines.
+                            </li>
+
+                            <li>
+                                Worked with GCP, BigQuery and
+                                cloud-based analytics platforms.
+                            </li>
+
+                            <li>
+                                Built dashboards and analytical
+                                datasets for business teams.
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section section-dark">
+
+        <div class="container">
+
+            <p class="section-label">04 — PROJECTS</p>
+
+            <h2>Featured projects</h2>
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECT 1 -->
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <h3>Cloud Data Platform</h3>
+
+                    <p>
+                        Designed a scalable cloud data platform for
+                        ingesting, transforming and analyzing large
+                        datasets.
+                    </p>
+
+                    <div class="tags">
+                        <span>Azure</span>
+                        <span>Databricks</span>
+                        <span>PySpark</span>
+                        <span>Delta Lake</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="https://github.com/" target="_blank">
+                            GitHub →
+                        </a>
+
+                        <a href="#">
+                            Case Study →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 2 -->
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <h3>BigQuery Analytics Platform</h3>
+
+                    <p>
+                        Built an analytics platform using BigQuery
+                        and Python to process and analyze business
+                        data.
+                    </p>
+
+                    <div class="tags">
+                        <span>GCP</span>
+                        <span>BigQuery</span>
+                        <span>Python</span>
+                        <span>SQL</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="https://github.com/" target="_blank">
+                            GitHub →
+                        </a>
+
+                        <a href="#">
+                            Case Study →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 3 -->
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <h3>Data Pipeline Orchestration</h3>
+
+                    <p>
+                        Created an automated ETL pipeline with
+                        scheduling, monitoring and data quality
+                        validation.
+                    </p>
+
+                    <div class="tags">
+                        <span>Airflow</span>
+                        <span>Python</span>
+                        <span>PostgreSQL</span>
+                        <span>Docker</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="https://github.com/" target="_blank">
+                            GitHub →
+                        </a>
+
+                        <a href="#">
+                            Case Study →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 4 -->
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        04
+                    </div>
+
+                    <h3>Data Analytics Dashboard</h3>
+
+                    <p>
+                        Developed an interactive dashboard to monitor
+                        KPIs and provide actionable insights to
+                        business stakeholders.
+                    </p>
+
+                    <div class="tags">
+                        <span>Power BI</span>
+                        <span>SQL</span>
+                        <span>Python</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="https://github.com/" target="_blank">
+                            GitHub →
+                        </a>
+
+                        <a href="#">
+                            Live Demo →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <p class="section-label">05 — CERTIFICATIONS</p>
+
+            <h2>Certifications</h2>
+
+            <div class="certifications">
+
+                <div class="cert">
+                    <strong>Professional Data Engineer</strong>
+                    <span>Google Cloud</span>
+                </div>
+
+                <div class="cert">
+                    <strong>Professional Cloud Database Engineer</strong>
+                    <span>Google Cloud</span>
+                </div>
+
+                <div class="cert">
+                    <strong>Microsoft Fabric Analytics Engineer</strong>
+                    <span>Microsoft</span>
+                </div>
+
+                <div class="cert">
+                    <strong>Power BI Data Analyst</strong>
+                    <span>Microsoft</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact-section">
+
+        <div class="container contact-content">
+
+            <p class="section-label">06 — CONTACT</p>
+
+            <h2>Let's work together.</h2>
+
+            <p>
+                I'm always interested in discussing data engineering,
+                analytics, cloud architecture and interesting projects.
+            </p>
+
+            <a href="mailto:alex@example.com"
+               class="button primary">
+                Get in touch
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <p>
+                © 2026 Alex Smith
+            </p>
+
+            <div>
+                <a href="https://github.com/" target="_blank">
+                    GitHub
+                </a>
+
+                <a href="https://linkedin.com/" target="_blank">
+                    LinkedIn
+                </a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
